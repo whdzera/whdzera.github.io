@@ -1,18 +1,15 @@
 
 title: Material Saber
-email: your-email@domain.com
+email: rokhim.whd@gmail.com
 description: >
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  My Private blog for diary, notes, any more.
 baseurl: ""
 url: ""
 
-# Build settings
 markdown: kramdown
 
-twitterUsername:
-gthubUsername:
+twitterUsername: rokhiminwahid
+githubUsername: rokhimin
 
 themeColor: default
 fixedNav: 'true'
