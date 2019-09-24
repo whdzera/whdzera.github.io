@@ -14,7 +14,7 @@ githubUsername: rokhimin
 themeColor: default
 fixedNav: 'true'
 
-permalink: /:year/:month/:title
+permalink: /:title.rb
 markdown: kramdown
 include: [_pages]
 exclude: [_site, LICENSE, README.md]

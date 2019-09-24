@@ -11,4 +11,19 @@
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <style>
+        /* Chrome, Safari */
+        ::-webkit-scrollbar {
+        width: 15px;
+        height: 15px;
+        }
+        ::-webkit-scrollbar-track-piece  {
+        background-color: #222222;
+        }
+        ::-webkit-scrollbar-thumb:vertical {
+        height: 30px;
+        background-color: #000;
+        }
+  </style>
 </head>
