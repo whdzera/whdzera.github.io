@@ -7,7 +7,6 @@ cover: 'https://s3.gifyu.com/images/bRbiKTIgzlOxELuPpm71BQlLmPujDKtnyhQhiSC_uoX4
 tags: automation
 ---
 
-# rssfeed>discord with Huginn
 Tutorial How to make autopost bot discord from rss feed website. this is like using zapier [ [rssfeed>discord with zapier](https://github.com/rokhimin/rssfeed-to-discord-with-zapier) ]
 
 # Event Flow

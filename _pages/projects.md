@@ -3,6 +3,12 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+my opensource project
+## 2019
+- [[Atem]](https://github.com/rokhimin/Atem-yugioh-bot)Bot discord & telegram for search yugioh card
+- [[CryptoCoins]](https://cryptocoins-bot.netlify.com)Bot discord & telegram for check price cryptocurrency
+- [[Material Saber]](https://github.com/rokhimin/jekyll-material-saber)Theme Jekyll
+- [[Darkness]](https://github.com/rokhimin/jekyll-darkness)Theme Jekyll
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## 2017
+- [[Tebak Kata]](https://github.com/rokhimin/App-TebakKata)App/game android like hangarman
