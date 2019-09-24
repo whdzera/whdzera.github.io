@@ -1,0 +1,25 @@
+
+title: Material Saber
+email: your-email@domain.com
+description: >
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+
+twitterUsername:
+gthubUsername:
+
+themeColor: default
+fixedNav: 'true'
+
+permalink: /:year/:month/:title
+markdown: kramdown
+include: [_pages]
+exclude: [_site, LICENSE, README.md]
+sass:
+  style: compressed
