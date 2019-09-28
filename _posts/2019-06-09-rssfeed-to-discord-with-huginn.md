@@ -47,8 +47,8 @@ Tutorial How to make autopost bot discord from rss feed website. this is like us
   "instructions": {
     "content": "{{ content | strip_html  }}",
     "description": "{{ jpg_url.0 | append: '.jpg' }}",
-    "title": "{{title}}",
-    "url": "{{url}}"
+    "title": "title",
+    "url": "url"
   },
   "matchers": [
     {
@@ -81,7 +81,7 @@ Tutorial How to make autopost bot discord from rss feed website. this is like us
         "url": "{{url}} ",
         "color": "1127128",
         "image": {
-          "url": "{{description}}"
+          "url": "description"
         }
       }
     ]
