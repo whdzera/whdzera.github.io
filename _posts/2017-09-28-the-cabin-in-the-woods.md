@@ -20,6 +20,6 @@ saya berpikir film ini mirip 'The maze runner' . yang dikurung di sebuat tempat
 dan ada monster aneh nya . but 'The cabin in the woods' lebih dari itu.
 
 # Overall
-saya ngasih rate 8.0/10 utk film ini
-RECOMMENDED
+saya kasih rate 8.0/10 utk film ini
+> RECOMMENDED
 
