@@ -6,7 +6,7 @@ categories: Tutorials
 cover: 'https://s8333.pcdn.co/wp-content/uploads/edd/2015/07/zapier-product-image.png'
 tags: automation
 ---
-Tutorial How to make autopost bot discord from rss feed. [Alternative with Huginn](https://github.com/rokhimin/rssfeed-to-discord-with-huginn-private)
+Tutorial How to make autopost bot discord from rss feed. [Alternative with Huginn](https://rokhimin.github.io/rssfeed-to-discord-with-huginn.rb)
 
 *for example, if get new feed from website anime will be post to discord
 [![example-rssfeed-discord-whd.md.jpg](https://s3.gifyu.com/images/example-rssfeed-discord-whd.md.jpg)](https://gifyu.com/image/EcKY)
@@ -74,5 +74,5 @@ Tutorial How to make autopost bot discord from rss feed. [Alternative with Hugin
 - Headers : Content-Type | application/json
 - test your app
 
-
+thx for read :)
 
