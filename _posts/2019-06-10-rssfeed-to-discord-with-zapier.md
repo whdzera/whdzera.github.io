@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'RSSFeed to discord with Zapier'
+title: '[Tutorial] RSSFeed to discord with Zapier'
 date: 2019-06-10
 categories: Tutorials
 cover: 'https://s8333.pcdn.co/wp-content/uploads/edd/2015/07/zapier-product-image.png'
