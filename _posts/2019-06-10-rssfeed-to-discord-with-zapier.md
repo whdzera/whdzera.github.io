@@ -6,8 +6,7 @@ categories: Tutorials
 cover: 'https://s8333.pcdn.co/wp-content/uploads/edd/2015/07/zapier-product-image.png'
 tags: automation
 ---
-
-Tutorial How to make autopost bot discord from rss feed. [Alternative with Huginn](https://github.com/rokhimin/rssfeed-to-discord-with-huginn)
+Tutorial How to make autopost bot discord from rss feed. [Alternative with Huginn](https://github.com/rokhimin/rssfeed-to-discord-with-huginn-private)
 
 *for example, if get new feed from website anime will be post to discord
 [![example-rssfeed-discord-whd.md.jpg](https://s3.gifyu.com/images/example-rssfeed-discord-whd.md.jpg)](https://gifyu.com/image/EcKY)
@@ -24,37 +23,56 @@ Tutorial How to make autopost bot discord from rss feed. [Alternative with Hugin
 - Create new apps
 
 ###### Rss Event
-[![rss1.md.jpg](https://s3.gifyu.com/images/rss1.md.jpg)](https://gifyu.com/image/EcNu)
+- [![rss1.md.jpg](https://s3.gifyu.com/images/rss1.md.jpg)](https://gifyu.com/image/EcNu)
 
 ###### Formatter Event (optional)
-[![formatter1.md.jpg](https://s3.gifyu.com/images/formatter1.md.jpg)](https://gifyu.com/image/EcNW)
+- Extract URL 
+- [![formatter1.md.jpg](https://s3.gifyu.com/images/formatter1.md.jpg)](https://gifyu.com/image/EcNW)
 
 ###### Webhooks Event
 - Action : Custom Request
 - Method : POST
 - Url : *your webhooks url*
 - Data :  *example
+-anime,manga
 
 {% highlight plain %}
 {
   "content": "***[UPDATE ANIME]*** @everyone",
   "embeds": [{
     "title": "__**{{title}}**__",
-        "description": "{{description}}",
-        "url": "{{link}}",
+        "description": "```{{62099734__description}}```",
+        "url": "{{62099734__link}}",
         "color": "1127128",
         "image": {
-          "url": "{{img}}"
+          "url": "https://images-ext-1.discordapp.net/external/b8iQQuKJVkT2HA5SwmyIRdNWDCAURYSKfeluMbrtCbw/https/i.grogol.us/img/aHR0cDovL2k2Ny50aW55cGljLmNvbS8yaTBzeTFzLmpwZw/grogol.jpg" 
           }
   }]
 }
 {% endhighlight %}
-[![jahd8383883.md.jpg](https://s3.gifyu.com/images/jahd8383883.md.jpg)](https://gifyu.com/image/EcNa)
+
+-Movie
+
+{% highlight plain %}
+{
+  "content": "***[UPDATE MOVIE]*** @everyone",
+  "embeds": [{
+    "title": "__**{{title}}**__",
+        "description": "```{{61591699__description}}```",
+        "url": "{{61591699__link}}",
+        "color": "1127128",
+        "fields": [
+      {
+        "name": "Preview",
+        "value": "https://{{61591895__output}}"
+      }]
+  }]
+}
+{% endhighlight %}
+
+- [![jahd8383883.md.jpg](https://s3.gifyu.com/images/jahd8383883.md.jpg)](https://gifyu.com/image/EcNa)
 - Headers : Content-Type | application/json
 - test your app
-
-
-Thankyou :)
 
 
 
