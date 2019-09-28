@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[Tutorial]Install Ruby on Rails di Linux Ubuntu (2017)'
+title: '[Tutorial] Install Ruby on Rails di Linux Ubuntu (2017)'
 date: 2017-04-18
 categories: tutorials
 tags: ruby rails
