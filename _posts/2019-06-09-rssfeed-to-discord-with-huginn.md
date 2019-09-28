@@ -45,7 +45,7 @@ Tutorial How to make autopost bot discord from rss feed website. this is like us
 {% highlight plain %}
 {
   "instructions": {
-    "content": "{{ content | strip_html  }}",
+    "content": " content | strip_html  ",
     "description": "{{ jpg_url.0 | append: '.jpg' }}",
     "title": "title",
     "url": "url"
