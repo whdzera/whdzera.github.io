@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'RSSFeed to discord with Huginn'
+title: '[Tutorial] RSSFeed to discord with Huginn'
 date: 2019-06-09
 categories: Tutorials
 cover: 'https://s3.gifyu.com/images/bRbiKTIgzlOxELuPpm71BQlLmPujDKtnyhQhiSC_uoX4OCzX-SVLu8rTW3dFIhF89VIDpcomHDKjBUGMCh4bPg63J4c2INAkb0WtEKUw5000-h5000.png'
