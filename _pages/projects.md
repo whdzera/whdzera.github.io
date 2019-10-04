@@ -6,7 +6,7 @@ permalink: /projects/
 
 ## 2019
 <li  class="list_projects">
-<a href="https://github.com/rokhimin/Atem-yugioh-bot"><font color="#fff">[Atem] Bot discord & telegram for search yugioh card</font></a><br>
+<a href="https://github.com/rokhimin/Atem-bot"><font color="#fff">[Atem] Bot discord & telegram for search yugioh card</font></a><br>
 </li>
 
 <li  class="list_projects">
