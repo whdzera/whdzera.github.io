@@ -3,12 +3,25 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-my opensource project
+
 ## 2019
-- [[Atem]](https://github.com/rokhimin/Atem-yugioh-bot)Bot discord & telegram for search yugioh card
-- [[CryptoCoins]](https://cryptocoins-bot.netlify.com)Bot discord & telegram for check price cryptocurrency
-- [[Material Saber]](https://github.com/rokhimin/jekyll-material-saber)Theme Jekyll
-- [[Darkness]](https://github.com/rokhimin/jekyll-darkness)Theme Jekyll
+<li  class="list_projects">
+<a href="https://github.com/rokhimin/Atem-yugioh-bot"><font color="#fff">[Atem] Bot discord & telegram for search yugioh card</font></a><br>
+</li>
+
+<li  class="list_projects">
+<a href="https://cryptocoins-bot.netlify.com"><font color="#fff">[CryptoCoins] Bot discord & telegram for check price cryptocurrency</font></a>
+</li>
+
+<li  class="list_projects">
+<a href="https://github.com/rokhimin/jekyll-material-saber"><font color="#fff">[Material Saber] Theme Jekyll</font></a>
+</li>
+
+<li  class="list_projects">
+<a href="https://github.com/rokhimin/jekyll-darkness"><font color="#fff">[Darkness] Theme Jekyll</font></a>
+</li>
 
 ## 2017
-- [[Tebak Kata]](https://github.com/rokhimin/App-TebakKata)App/game android like hangarman
+<li  class="list_projects">
+<a href="https://github.com/rokhimin/App-TebakKata"><font color="#fff">[Tebak Kata] App/game android like hangarman</font></a>
+</li>
