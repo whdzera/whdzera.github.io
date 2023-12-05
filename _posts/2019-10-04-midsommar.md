@@ -5,7 +5,7 @@ date: 2019-10-04
 categories: film
 tags: review film
 ---
-
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Midsommar_%282019_film_poster%29.png/220px-Midsommar_%282019_film_poster%29.png" alt="image" width="50%" height="auto">
 ![](https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Midsommar_%282019_film_poster%29.png/220px-Midsommar_%282019_film_poster%29.png)
 
 # Sinopsis
