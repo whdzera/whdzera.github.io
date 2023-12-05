@@ -5,7 +5,7 @@ date: 2019-10-04
 categories: film
 tags: review film
 ---
-<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Midsommar_%282019_film_poster%29.png/220px-Midsommar_%282019_film_poster%29.png" alt="image" width="full" height="auto">
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Midsommar_%282019_film_poster%29.png/220px-Midsommar_%282019_film_poster%29.png" alt="image" width="100%" height="auto">
 
 # Sinopsis
 Film ini bercerita tentang Dani dan Cristian yang merupakan pasangan muda Amerika di ambang putus. Namun sebuah tragedi pada keluarga Dani membuat mereka tetap bersama. Dalam masa sulit itu, Dani akhirnya memutuskan ikut bersama Cristian dan tiga temannya yang lain untuk berlibur tengah musim panas di swedia.
