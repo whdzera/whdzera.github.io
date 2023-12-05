@@ -10,5 +10,5 @@ My working philosophies is communication and collaboration with other developers
 I also like foreign languages and am currently putting a lot of effort into becoming fluent in Japan. I consider myself advanced right now.
 And of course it is always fun to learn something new about English.
 
-Technology Interest :</br>
+Technology Interest :<br>
 Ruby, jekyll, Rails, Sinatra, Hanami, Postgresql, Redis, DevOps, Container
