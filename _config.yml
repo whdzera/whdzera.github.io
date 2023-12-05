@@ -1,6 +1,6 @@
 
-title: Rokhimin
-email: rokhim.whd@gmail.com
+title: whdzera
+email: whdzera@gmail.com
 description: >
   My Private blog for diary, notes, any more.
 baseurl: ""
@@ -8,8 +8,8 @@ url: ""
 
 markdown: kramdown
 
-twitterUsername: rokhiminwahid
-githubUsername: rokhimin
+twitterUsername: whdzera
+githubUsername: whdzera
 
 themeColor: default
 fixedNav: 'true'
