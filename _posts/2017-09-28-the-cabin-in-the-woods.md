@@ -6,7 +6,7 @@ categories: film
 tags: review film
 ---
 
-<img src="[https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Midsommar_%282019_film_poster%29.png/220px-Midsommar_%282019_film_poster%29.png](https://upload.wikimedia.org/wikipedia/en/thumb/8/84/The_Cabin_in_the_Woods_%282012%29_theatrical_poster.jpg/215px-The_Cabin_in_the_Woods_%282012%29_theatrical_poster.jpg)" alt="image" width="100%" height="auto">
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Midsommar_%282019_film_poster%29.png/220px-Midsommar_%282019_film_poster%29.png](https://upload.wikimedia.org/wikipedia/en/thumb/8/84/The_Cabin_in_the_Woods_%282012%29_theatrical_poster.jpg/215px-The_Cabin_in_the_Woods_%282012%29_theatrical_poster.jpg)" alt="image" width="100%" height="auto">
 
 # Sinopsis
 bercerita ttg Lima orang remaja, Dana , Jules , Curt , Marty , dan sepupu Curt, Holden yg merencanakan sebuah holiday getaway ke sebuah kabin yang terletak jauh di tengah hutan. Apa yang mereka kira akan menjadi sebuah waktu untuk bersenang-senang, menjadi sebuah mimpi buruk yang tidak pernah mereka bayangkan sebelumnya.
