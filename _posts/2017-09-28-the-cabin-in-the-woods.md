@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[Review Film] The Cabin in the woods (2012)'
+title: '[Review Film] The Cabin in the woods'
 date: 2017-09-28
 categories: film
 tags: review film
