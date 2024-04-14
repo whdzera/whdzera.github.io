@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[Review Film] Midsommar (2019)'
+title: '[Review Film] Midsommar'
 date: 2019-10-04
 categories: film
 tags: review film
