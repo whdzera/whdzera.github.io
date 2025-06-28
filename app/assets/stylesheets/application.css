@@ -1724,6 +1724,29 @@
     }
   }
 }
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 1em;
+  color: #4b5563;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  49% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @property --tw-scale-x {
   syntax: "*";
   inherits: false;
