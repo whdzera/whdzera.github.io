@@ -1,6 +1,6 @@
 :root {
   --bprogress-color: #83111b;
-  --bprogress-height: 4px;
+  --bprogress-height: 5px;
   --bprogress-spinner-size: 18px;
   --bprogress-spinner-animation-duration: 400ms;
   --bprogress-spinner-border-size: 2px;
