@@ -1,5 +1,5 @@
 :root {
-  --bprogress-color: #83111b;
+  --bprogress-color: linear-gradient(to right, #bd4953, #83111b, #000000);
   --bprogress-height: 5px;
   --bprogress-spinner-size: 18px;
   --bprogress-spinner-animation-duration: 400ms;
@@ -14,7 +14,13 @@
 }
 
 .dark {
-  --bprogress-color: #1648b6;
+  --bprogress-color: linear-gradient(
+    to right,
+    #648feb,
+    #1648b6,
+    #6e78cf,
+    #982ac4
+  );
 }
 
 .bprogress {
