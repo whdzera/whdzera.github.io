@@ -1,5 +1,5 @@
 import { Application } from "@hotwired/stimulus";
-
+import "@hotwired/turbo";
 window.Stimulus = Application.start();
 
 import ThemeController from "./controllers/theme_controller.js";
@@ -14,5 +14,3 @@ import LoadingController from "./controllers/loading_controller.js";
 Stimulus.register("loading", LoadingController);
 import CopyController from "./controllers/copy_controller.js";
 Stimulus.register("copy", CopyController);
-import TypewriterController from "./controllers/typewriter_controller.js";
-Stimulus.register("typewriter", TypewriterController);

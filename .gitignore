@@ -6,3 +6,4 @@ vendor
 node_modules
 package-lock.json
 Gemfile.lock
+sylvia.rb
