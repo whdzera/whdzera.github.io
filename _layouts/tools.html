@@ -14,19 +14,19 @@ layout: default
 <div
   class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 px-4"
 >
-  {% assign tools = "totp:Gauth TOTP, to-do-list:To Do List App,
-  gradient:Gradient Generator, image-upscale:Image Upscaler Tool,
-  image-enhancer:Image Enhancer Tool, bg-remove:Background Removal Tool,
+  {% assign tools = "totp:TOTP Manager, todolist:To Do List App,
+  calc:Calculator, gradient:Gradient Generator, image-upscale:Image Upscaler
+  Tool, image-enhancer:Image Enhancer Tool, bg-remove:Background Removal Tool,
   cv-generator:CV / Resume Generator, discord-webhook:Discord Webhook Sender,
-  strikethrough:Strikethrough Text Generator, anime-trace:Anime Trace Tool,
+  strikethrough:Strikethrough Text Generator, findanime:Find Anime by image,
   ai-hub:AI Chat Hub, rest-soap:API REST/SOAP Tester, lorem-ipsum:Lorem Ipsum
   Generator, nik-parse:Indonesian NIK Parser, ig-comparator:Instagram
-  Comparator, mbti:MBTI Personality Test" | split: "," %} {% for tool in tools
-  %} {% assign parts = tool | strip | split: ":" %} {% assign slug = parts[0] %}
-  {% assign name = parts[1] %}
+  Comparator, mbti:MBTI Personality Test, xiAnimelist:Anime List" | split: ","
+  %} {% for tool in tools %} {% assign parts = tool | strip | split: ":" %} {%
+  assign slug = parts[0] %} {% assign name = parts[1] %}
 
   <a
-    href="{{ '/tools/' | append: slug | relative_url }}"
+    href="{{ '/' | append: slug | relative_url }}"
     class="transition hover:scale-[1.02] hover:shadow-xl duration-200"
   >
     <div
