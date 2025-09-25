@@ -49,6 +49,16 @@
         >
           <span data-theme-target="icon" class="w-5 h-5"></span>
         </button>
+
+        <!-- Rain Toggle Desktop -->
+        <div data-controller="rain">
+          <button
+            data-action="click->rain#toggle"
+            class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-300 cursor-pointer"
+          >
+            <span data-rain-target="icon" class="w-5 h-5"></span>
+          </button>
+        </div>
       </div>
 
       <!-- Mobile Navigation -->
@@ -60,6 +70,16 @@
         >
           <span data-theme-target="icon" class="w-5 h-5"></span>
         </button>
+
+        <!-- Rain Toggle Mobile -->
+        <div data-controller="rain">
+          <button
+            data-action="click->rain#toggle"
+            class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-300 cursor-pointer"
+          >
+            <span data-rain-target="icon" class="w-5 h-5"></span>
+          </button>
+        </div>
 
         <!-- Burger Menu Button -->
         <button

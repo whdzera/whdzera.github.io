@@ -19,17 +19,25 @@ layout: default
       <div class="p-6 md:p-8 flex flex-col sm:flex-row gap-6 sm:items-start">
         <!-- Profile Image -->
         <div class="flex-shrink-0">
+          <!-- Light mode image -->
           <img
-            src="/app/assets/images/my.png"
+            src="/app/assets/images/my-light.png"
             alt="whdzera"
-            class="w-32 h-32 rounded-full shadow-md object-cover"
+            class="w-32 h-32 rounded-full shadow-md object-cover dark:hidden"
+          />
+
+          <!-- Dark mode image -->
+          <img
+            src="/app/assets/images/my-dark.png"
+            alt="whdzera"
+            class="w-32 h-32 rounded-full shadow-md object-cover hidden dark:block"
           />
         </div>
 
         <!-- Text Content -->
         <div class="text-gray-800 dark:text-gray-200 flex-1">
           <h2 class="text-2xl font-bold mb-2">
-            Hi, Saya <span class="text-primary">whdzera</span> 👋
+            Hi, Saya <span class="text-primary">whdzera</span>
           </h2>
           <p class="mb-4 leading-relaxed">
             Saya seorang programmer berusia 19 tahun yang penuh semangat dalam
@@ -39,10 +47,9 @@ layout: default
           </p>
           <p class="mb-4 leading-relaxed">
             Filosofi saya adalah: <em>komunikasi</em> dan
-            <em>kolaborasi</em> adalah kunci. Bahasa pemrograman hanyalah
-            alat—gunakan yang paling tepat untuk pekerjaan yang sesuai. Saya
-            terus belajar dan menganggap diri saya sudah berada pada tingkat
-            lanjutan.
+            <em>kolaborasi</em> adalah kunci. Bahasa pemrograman hanyalah alat.
+            gunakan yang paling tepat untuk pekerjaan yang sesuai. Saya terus
+            belajar dan menganggap diri saya sudah berada pada tingkat lanjutan.
           </p>
 
           <div>
@@ -54,7 +61,7 @@ layout: default
               tips ringan dan ramah untuk pemula.
             </p>
             <a
-              href="/blog"
+              href="/"
               class="inline-block mt-2 text-primary hover:underline font-medium"
               >Kunjungi Blog Saya</a
             >
@@ -111,26 +118,6 @@ layout: default
               <span>Ruby on Rails</span>
             </div>
 
-            <!-- Sinatra (fallback text or placeholder) -->
-            <div class="flex items-center space-x-3">
-              <div
-                class="w-6 h-6 bg-pink-500 text-white flex items-center justify-center text-xs font-bold rounded-full"
-              >
-                S
-              </div>
-              <span>Sinatra</span>
-            </div>
-
-            <!-- Hanami (custom SVG or fallback circle) -->
-            <div class="flex items-center space-x-3">
-              <div
-                class="w-6 h-6 bg-red-400 text-white flex items-center justify-center text-xs font-bold rounded-full"
-              >
-                H
-              </div>
-              <span>Hanami</span>
-            </div>
-
             <!-- Stimulus -->
             <div class="flex items-center space-x-3">
               <img
@@ -153,12 +140,23 @@ layout: default
 
             <!-- Tailwind -->
             <div class="flex items-center space-x-3">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-                alt="Tailwind CSS"
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 256 154"
                 class="w-6 h-6"
-              />
-              <span>Tailwind CSS</span>
+              >
+                <path
+                  fill="#38BDF8"
+                  d="M128 0C93.867 0 74.667 17.067 70.4 51.2c9.6-11.733 20.8-16 33.6-12.8
+      7.307 1.827 12.48 7.147 18.133 13.013C131.2 65.067 142.933 76.8 166.4 76.8c34.133 0
+      53.333-17.067 57.6-51.2-9.6 11.733-20.8 16-33.6 12.8-7.307-1.827-12.48-7.147-18.133-13.013C162.133
+      11.733 150.4 0 128 0zm-57.6 76.8C36.267 76.8 17.067 93.867 12.8 128c9.6-11.733 20.8-16
+      33.6-12.8 7.307 1.827 12.48 7.147 18.133 13.013C99.2 140.8 110.933 152.533 134.4
+      152.533c34.133 0 53.333-17.067 57.6-51.2-9.6 11.733-20.8 16-33.6
+      12.8-7.307-1.827-12.48-7.147-18.133-13.013C130.133 88.533 118.4 76.8 96 76.8z"
+                />
+              </svg>
+              <span class="text-gray-800 dark:text-gray-200">Tailwind CSS</span>
             </div>
 
             <!-- GitHub -->

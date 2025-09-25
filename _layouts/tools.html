@@ -7,12 +7,13 @@ layout: default
     My Tools
   </h1>
   <p class="text-gray-600 dark:text-gray-300 mx-auto max-w-2xl">
-    Tool-tool yang saya buat di atas Jekyll dan hanya berjalan di client-side.
+    Tool-tool simpel yang saya buat di atas Jekyll dan hanya berjalan di
+    client-side tanpa back-end.
   </p>
 </div>
 
 <div
-  class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 px-4"
+  class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 max-w-6xl mx-auto mb-6"
 >
   {% assign tools = "totp:TOTP Manager, todolist:To Do List App,
   calc:Calculator, strikethrough:Strikethrough Text Generator, findanime:Find
@@ -22,10 +23,10 @@ layout: default
 
   <a
     href="{{ '/' | append: slug | relative_url }}"
-    class="transition hover:scale-[1.02] hover:shadow-xl duration-200"
+    class="transition hover:scale-[1.02] hover:shadow-xl duration-200 block"
   >
     <div
-      class="bg-white hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-600 rounded-2xl shadow-lg p-6 h-full flex items-center justify-center text-center"
+      class="bg-white hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-600 rounded-lg shadow-lg p-3 text-center"
     >
       <h3 class="text-lg font-semibold text-gray-800 dark:text-white">
         {{ name }}
