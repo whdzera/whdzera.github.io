@@ -23,9 +23,11 @@ plugins:
   - jekyll-sitemap
 
 include:
+  - _app
   - _pages
 
 exclude:
+  - _app/javascript
   - spec
   - CNAME
   - package.json
