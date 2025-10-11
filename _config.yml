@@ -28,7 +28,6 @@ include:
 
 exclude:
   - _app/javascript
-  - spec
   - CNAME
   - package.json
   - package-lock.json
