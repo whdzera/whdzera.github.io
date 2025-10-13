@@ -10,47 +10,49 @@
   animation: blink 0.7s infinite;
 }
 
-/* Rain effect */
-.rain {
-  position: fixed;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  overflow: hidden;
-  z-index: 9999;
-}
-
-.drop {
-  position: absolute;
-  top: -20px;
-  width: 2px;
-  height: 20px;
-  animation: fall linear infinite;
-  background-color: rgba(255, 0, 0, 0.6);
-}
-
-.dark .drop {
-  background-color: rgb(255 255 255 / 0.7);
-}
-
-/* Animations */
-@keyframes blink {
-  0%,
-  49% {
-    opacity: 1;
+/* Responsive typography for larger screens */
+@media screen and (min-width: 2048px) {
+  html {
+    font-size: 20px;
   }
-  50%,
-  99% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
-@keyframes fall {
-  to {
-    transform: translateY(100vh);
+  .text-4xl {
+    font-size: 3rem !important;
+  }
+
+  .text-2xl {
+    font-size: 2rem !important;
+  }
+
+  .text-lg {
+    font-size: 1.5rem !important;
+  }
+
+  .text-base {
+    font-size: 1.25rem !important;
+  }
+
+  .text-sm {
+    font-size: 1rem !important;
+  }
+
+  .text-xs {
+    font-size: 0.875rem !important;
+  }
+
+  .max-w-6xl {
+    max-width: 80rem !important;
+  }
+
+  .p-4 {
+    padding: 1.5rem !important;
+  }
+
+  .mb-4 {
+    margin-bottom: 1.5rem !important;
+  }
+
+  .gap-6 {
+    gap: 2rem !important;
   }
 }
