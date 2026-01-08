@@ -1,9 +1,9 @@
 title: whdzera
 email: whdzera@gmail.com
-description: >- 
+description: >-
   Temukan berbagai tulisan menarik seputar teknologi. Blog ini dibuat sebagai ruang berbagi ide, pengalaman, dan pengetahuan yang bisa bermanfaat untuk siapa saja. Yuk, jelajahi dan temukan sesuatu yang baru di setiap postingannya!
-baseurl: ""  
-url: ""  
+baseurl: ""
+url: "https://whdzera.my.id"
 twitter_username: whdzera
 github_username: whdzera
 linkedin_username: whdzera
@@ -12,7 +12,6 @@ telegram_username: whdzera
 discord_username: whdzera
 youtube_username: whdzera
 logo: whdzera
-permalink: "/:title.html"
 footer: "Created with ❤ by whdzera"
 disqus: "whdzera.disqus"
 
