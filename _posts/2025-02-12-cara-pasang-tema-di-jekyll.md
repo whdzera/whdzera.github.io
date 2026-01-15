@@ -7,7 +7,7 @@ comments: true
 ---
 
 Halo!  
-Kalau kamu sedang membangun blog statis pakai Jekyll dan pengen tampil beda, kamu bisa mulai dengan mengganti **tema Jekyll-nya**. Di artikel ini, gw akan tunjukin langkah-langkah simpel buat pasang tema di Jekyll, sekaligus promosi dikit tema buatanku sendiri (:v hehe) : **[Niri Theme Jekyll](https://github.com/rokhimin/jekyll-niri)**.
+Kalau kamu sedang membangun blog statis pakai Jekyll dan pengen tampil beda, kamu bisa mulai dengan mengganti **tema Jekyll-nya**. Di artikel ini, gw akan tunjukin langkah-langkah simpel buat pasang tema di Jekyll, sekaligus promosi dikit tema buatanku sendiri (:v hehe) : **[Niri Theme Jekyll](https://github.com/whdzera/jekyll-niri)**.
 
 ---
 
@@ -64,7 +64,7 @@ Voila! Tema baru kamu sudah tampil.
 Jika kamu ingin deploy ke GitHub Pages, kamu perlu menggunakan `remote_theme` karena GitHub Pages tidak mengizinkan semua gem pihak ketiga. Tambahkan ini di `_config.yml`:
 
 ```bash
-remote_theme: rokhimin/jekyll-niri
+remote_theme: whdzera/jekyll-niri
 ```
 
 #### 5. Cari Tema Jekyll Lainnya
