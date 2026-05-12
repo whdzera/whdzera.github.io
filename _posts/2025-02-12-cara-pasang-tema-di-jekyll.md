@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cara pasang tema di jekyll
+title: Cara Pasang Tema di jekyll
 date: 2025-02-12
 author: whdzera
 comments: true

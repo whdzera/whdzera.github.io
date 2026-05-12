@@ -6,8 +6,6 @@ author: whdzera
 comments: true
 ---
 
-# Redis di Rails
-
 ## Apa itu Redis?
 
 Redis (_Remote Dictionary Server_) adalah salah satu _in-memory data store_ yang sangat populer dan sering digunakan bersama Ruby on Rails untuk meningkatkan performa dan skalabilitas aplikasi. Pada artikel ini, kita akan membahas apa itu Redis, kenapa sering dipakai di Rails, serta contoh penggunaan umumnya.
