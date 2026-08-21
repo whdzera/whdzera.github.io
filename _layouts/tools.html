@@ -17,12 +17,12 @@ layout: default
 >
   {% assign tools = "totp:TOTP Manager, todolist:To Do List App,
   calc:Calculator, strikethrough:Strikethrough Text Generator, findanime:Find
-  Anime by image, xiAnimelist:Anime List" | split: "," %} {% for tool in tools
-  %} {% assign parts = tool | strip | split: ":" %} {% assign slug = parts[0] %}
-  {% assign name = parts[1] %}
+  Anime by image" | split: "," %} {% for tool in tools %} {% assign parts = tool
+  | strip | split: ":" %} {% assign slug = parts[0] %} {% assign name = parts[1]
+  %}
 
   <a
-    href="{{ '/' | append: slug | relative_url }}"
+    href="https://{{ slug }}.whdzera.com"
     class="transition hover:scale-[1.02] hover:shadow-xl duration-200 block"
   >
     <div
