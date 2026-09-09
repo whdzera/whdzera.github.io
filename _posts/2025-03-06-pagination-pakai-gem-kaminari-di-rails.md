@@ -6,10 +6,10 @@ author: whdzera
 comments: true
 ---
 
-### Apa Itu Kaminari?
-
-Kaminari adalah sebuah gem Ruby untuk melakukan pagination pada ActiveRecord, Mongoid, dan berbagai ORM lainnya.
-Pagination adalah fitur penting dalam aplikasi web untuk menampilkan data dalam jumlah besar secara efisien, kamu bisa dengan mudah membatasi jumlah item yang ditampilkan di satu halaman, serta menyediakan navigasi untuk pindah ke halaman-halaman berikutnya.
+Halo!
+kali ini kita akan bahas tentang pagination, kalau kalian belum tau apa itu pagination. pagination adalah teknik untuk membagi data atau konten yang jumlahnya sangat banyak menjadi beberapa halaman. di rails sebenarnya ada banyak gem untuk pagination, tapi kali ini kita bahas khusus gem kaminari saja karena gem favorit author.
+jadi Kaminari adalah sebuah gem Ruby untuk melakukan pagination pada ActiveRecord, Mongoid, dan berbagai ORM lainnya.
+penggunaan gem kaminari di rails sebenarnya sangat mudah loh.
 
 Berikut ini cara memakai Gem Kaminari di Ruby on rails.
 
@@ -84,6 +84,6 @@ http://localhost:3000/posts?page=2
 
 Dan Rails akan menampilkan halaman ke-2 dari daftar Post
 
-Dengan gem Kaminari, proses pagination di aplikasi Rails menjadi sangat mudah dan fleksibel. Kamu bisa menggunakannya di berbagai model, mengkustom tampilan, serta menggabungkannya dengan AJAX atau infinite scrolling untuk pengalaman pengguna yang lebih modern.
+Dengan gem Kaminari, proses pagination di aplikasi Rails menjadi sangat mudah dan fleksibel. kalian bisa menggunakannya di berbagai model, mengkustom tampilan, serta menggabungkannya dengan AJAX atau infinite scrolling untuk pengalaman UX pengguna.
 
-Semoga tutorial ini bermanfaat! Jika ada pertanyaan atau saran, silakan tinggalkan komentar di bawah.
+Semoga tutorial ini bermanfaat! Jika ada pertanyaan atau saran, silakan tinggalkan komentar di bawah ya.
